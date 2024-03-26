@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    width: 100%;
+    height: 60px;
+    padding: 10px 0;
+    color: white;
+    background: rgb(0, 0, 100);
+    font-size: 40px;
+    text-align: center;
+}
+.choices{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.choice:hover{
+    border: 10px solid black;
+}
+.choice img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.compChoiceContainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.compChoice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.compChoice img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.comp-choice{
+    align-items: center;
+}
+.score-board{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    font-size: 40px;
+}
+.score p{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.msg-container{
+    margin: 30px;
+    text-align: center;
+}
+.msg{
+    display: inline;
+    padding: 20px 10px;
+    background: #000;
+    color: white;
+    font-size: 50px;
+    border-radius: 30px;
+}
+.draw{
+    display: inline;
+    padding: 20px 10px;
+    font-size: 50px;
+    border-radius: 30px;
+    background-color: yellow;
+    color: #000;
+}
+.userWin{
+    display: inline;
+    padding: 20px 10px;
+    font-size: 50px;
+    border-radius: 30px;
+    background-color: green;
+    color: #000;
+}
+.compWin{
+    display: inline;
+    padding: 20px 10px;
+    font-size: 50px;
+    border-radius: 30px;
+    background-color: red;
+    color: #000;
+}
+.reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.restart-btn{
+    margin: 2rem;
+    font-size: 30px;
+    padding: 1rem;
+    background: gray;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    color: black;
+}
+.borderClass{
+    border: 10px solid black;
+}
